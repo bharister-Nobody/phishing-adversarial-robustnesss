@@ -1,14 +1,14 @@
 # Adversarial Attacks against Deep Learning-Based Email Phishing Detection Systems
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-![Python](https://img.shields.io/badge/python-3.x-blue)
+![Python](https://img.shields.io/badge/python-3.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Author:** Alabi Ayobami James, Machine Learning Engineer and Researcher
 
 **Affiliation:** LibertyEdge Tech Solutions (Research Team). Published with the organisation's permission.
 
-**Full report (PDF):** [Google Drive](https://drive.google.com/file/d/1qZHputeuHv0_isnmmvAg5XyjHn09kP44/view?usp=sharing) · [`docs/report.pdf`](docs/report.pdf)
+**Full report (PDF):** [Google Drive](https://drive.google.com/file/d/1qZHputeuHv0_isnmmvAg5XyjHn09kP44/view?usp=sharing) 
 **Report date:** September 2025
 
 ---
