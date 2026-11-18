@@ -54,7 +54,6 @@ All implementation, experiments and analysis in this repository were carried out
 ├── data/            # see data/README.md (dataset is not redistributed)
 ├── models/          # trained models (see models/README.md)
 ├── results/figures/ # plots used in the report
-├── docs/report.pdf  # full research report
 ├── requirements.txt
 ├── CITATION.cff
 └── LICENSE
