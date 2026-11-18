@@ -6,7 +6,7 @@ authors:
   - family-names: "Alabi"
     given-names: "Ayobami James"
     affiliation: "LibertyEdge Tech Solutions"
-    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    orcid: "https://orcid.org/0009-0001-8644-7318"
 abstract: "LSTM-based phishing email detection, evaluation under DeepWordBug adversarial attacks, and adversarial-training defence."
 keywords:
   - adversarial machine learning
@@ -16,5 +16,5 @@ keywords:
   - cybersecurity
 license: MIT
 date-released: "2026-11-18"
-repository-code: "https://github.com/YOUR-USERNAME/phishing-adversarial-robustness"
+repository-code: "https://github.com/bharister-Nobody/phishing-adversarial-robustness"
 # doi: "10.5281/zenodo.XXXXXXX"   # add after the Zenodo release
