@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Adversarial Attacks against Deep Learning-Based Email Phishing Detection Systems"
+type: software
+authors:
+  - family-names: "Alabi"
+    given-names: "Ayobami James"
+    affiliation: "LibertyEdge Tech Solutions"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+abstract: "LSTM-based phishing email detection, evaluation under DeepWordBug adversarial attacks, and adversarial-training defence."
+keywords:
+  - adversarial machine learning
+  - phishing detection
+  - LSTM
+  - TextAttack
+  - cybersecurity
+license: MIT
+date-released: "2026-11-18"
+repository-code: "https://github.com/YOUR-USERNAME/phishing-adversarial-robustness"
+# doi: "10.5281/zenodo.XXXXXXX"   # add after the Zenodo release

@@ -1,0 +1,14 @@
+# Core packages used in this project.
+# After confirming your notebooks run, replace with exact versions:
+#   pip freeze | findstr /i "tensorflow keras textattack scikit-learn pandas numpy matplotlib seaborn wordcloud nltk"
+tensorflow
+keras
+textattack
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+nltk
+jupyter
