@@ -5,8 +5,10 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Author:** Alabi Ayobami James, Machine Learning Engineer and Researcher
+
 **Affiliation:** LibertyEdge Tech Solutions (Research Team). Published with the organisation's permission.
-**Full report (PDF):** [Google Drive](GOOGLE_DRIVE_LINK) · [`docs/report.pdf`](docs/report.pdf)
+
+**Full report (PDF):** [Google Drive](https://drive.google.com/file/d/1qZHputeuHv0_isnmmvAg5XyjHn09kP44/view?usp=sharing) · [`docs/report.pdf`](docs/report.pdf)
 **Report date:** September 2025
 
 ---
@@ -91,11 +93,15 @@ Adversarial training cost about one percentage point of clean accuracy.
 
 ### Adversarial attack (DeepWordBugGao2018)
 
-| Experiment | Successful | Failed | Skipped | Reported success rate |
+Attack success rate = successful attacks ÷ all emails attacked (successful + failed + skipped). "Skipped" emails are ones the attack did not run on (for example, the model had already misclassified them).
+
+| Experiment | Successful | Failed | Skipped | Attack success rate |
 |---|---|---|---|---|
 | Attack on initial model, notebook 03 (18 emails) | 3 | 7 | 8 | 16.67 % |
 | Initial model, comparison run, notebook 05 (10 emails) | 3 | 5 | 2 | 30 % |
 | Retrained model, comparison run, notebook 05 (10 emails) | 2 | 8 | 0 | 20 % |
+
+The like-for-like comparison of the two models is the **comparison run (notebook 05): 30 % → 20 %**. The notebook 03 row is a separate, larger run on the initial model alone and should not be compared with the other two.
 
 Other figures from the notebook 03 attack: accuracy under attack 70 %, average perturbed words 18.53 %, average 717.8 queries per input. In the comparison run, successful attacks needed more queries against the retrained model than against the initial one.
 
@@ -104,16 +110,14 @@ Figures (confusion matrices, ROC curves, attack-outcome charts) are in [`results
 ## Limitations and honest caveats
 
 - **Small attack samples.** The attacks were run on 10 to 18 emails. A change from 3/10 to 2/10 successful attacks is **not statistically significant**, so the robustness gain should be read as indicative, not conclusive. A natural extension is to repeat the attack on hundreds of test emails and report confidence intervals.
-- **Two success-rate figures.** The 16.67 % figure (notebook 03) and the 30 % figure for the same model (notebook 05) come from runs of different size with different skip counts, so they are not directly comparable.
 - **One attack family, one dataset, one architecture.** Only DeepWordBug was used, against an LSTM, on a single Kaggle dataset. Results may not generalise to other attacks (for example TextFooler, BERT-Attack), transformer models or other corpora.
-- **Clean-performance trade-off.** Retraining slightly reduced clean accuracy and increased false positives.
 - **Computational cost.** Iterative attack generation is expensive (about 700 queries per attacked email).
 
 ## Reproducing the results
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/phishing-adversarial-robustness.git
+   git clone https://github.com/bharister-Nobody/phishing-adversarial-robustness.git
    cd phishing-adversarial-robustness
    ```
 2. Create an environment and install dependencies:
@@ -143,4 +147,4 @@ Code is released under the MIT licence (see [`LICENSE`](LICENSE)). This work was
 
 ## Contact
 
-Alabi Ayobami James · EMAIL_ADDRESS · [ORCID](https://orcid.org/XXXX-XXXX-XXXX-XXXX) · [LinkedIn](LINKEDIN_URL)
+Alabi Ayobami James · ayobamijames103@gmail.com · [ORCID: 0009-0001-8644-7318](https://orcid.org/0009-0001-8644-7318) · [LinkedIn](https://www.linkedin.com/in/ayobami-alabi-james/)
